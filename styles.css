@@ -16,7 +16,7 @@ body {
 /* Общие стили для ссылок */
 a {
     text-decoration: none;
-    color: #C4D8E1;
+    color: #fff;
 }
 
 /* Сброс отступов для заголовков */
@@ -42,8 +42,7 @@ ul, li {
 
 /* Стили для верхней панели навигации (header) */
 header {
-    background-color: #003869;
-    border-bottom: 3px solid #A1BBCA;
+    background-color: #335177;
 }
 
 /* Стили для общей навигации */
@@ -64,14 +63,12 @@ nav {
 
 .logo2 {
     padding: 10px 0 10px;
-    
 }
 
 /* Стили для текста логотипа */
 .logo-text {
     display: block;
     font-size: 60px;
-    color: #fff;
 }
 
 /* Стили для элементов меню */
@@ -118,9 +115,9 @@ nav {
 
 /* Стили для информационного блока */
 .info {
-    background-color: #003869;
+    background-color: #335177;
     color: #fff;
-    box-shadow: 0px 0px 16px 19px #015E9B;
+    box-shadow: 0px 0px 16px 19px #335177;
     font-size: 40px;
     margin: 0;
     padding: 15px;
@@ -128,15 +125,14 @@ nav {
 
 /* Стили для футера */
 footer {
-    background-color: #003869;
+    background-color: #335177;
     color: #fff;
 }
 
 /* Стили для контейнера футера */
 .footer-nav {
+    align-items: center;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -144,7 +140,6 @@ footer {
 /* Стили для контактных данных и адреса */
 .contacts {
     display: flex;
-
 }
 
 .contact {
